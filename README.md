@@ -11,11 +11,11 @@ External schema, i.e. not embedded in database file, for [dataset](https://githu
 ## Usage
 
 ```python
->>> from dataset import dataset
+>>> import dataset
 >>> from dataset_xschema import XSchemaTable
 >>> from datetime import datetime
->>> dataset.table_class = XSchemaTable
->>> db = TinyDB('foo.db')
+>>> db = dataset.connect('foo.db')
+>>> db.table_class = XSchemaTable
 >>> table = db['bar']
 >>> table.schema = {
 ...     'record_id': int,
