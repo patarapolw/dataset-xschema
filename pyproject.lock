@@ -1,0 +1,146 @@
+[[package]]
+category = "main"
+description = "A database migration tool for SQLAlchemy."
+name = "alembic"
+optional = false
+platform = "*"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "1.0.0"
+
+[package.dependencies]
+Mako = "*"
+SQLAlchemy = ">=0.9.0"
+python-dateutil = "*"
+python-editor = ">=0.3"
+
+[[package]]
+category = "main"
+description = "Commons of banal micro-functions for Python."
+name = "banal"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "0.3.7"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = ""
+name = "dataset"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.1.0"
+
+[package.dependencies]
+alembic = ">=0.6.2"
+normality = ">=0.5.1"
+six = ">=1.11.0"
+sqlalchemy = ">=1.1.0"
+
+[package.source]
+reference = "4e6c9d47ef427060f60ee1660ed79e999646f86b"
+type = "git"
+url = "https://github.com/patarapolw/dataset.git"
+[[package]]
+category = "main"
+description = "A super-fast templating language that borrows the  best ideas from the existing templating languages."
+name = "mako"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.0.7"
+
+[package.dependencies]
+MarkupSafe = ">=0.9.2"
+
+[[package]]
+category = "main"
+description = "Implements a XML/HTML/XHTML Markup safe string for Python"
+name = "markupsafe"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.0"
+
+[[package]]
+category = "main"
+description = "Micro-library to normalize text strings"
+name = "normality"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "0.6.1"
+
+[package.dependencies]
+banal = "*"
+chardet = "*"
+six = ">=1.11.0"
+
+[[package]]
+category = "main"
+description = "Extensions to the standard Python datetime module"
+name = "python-dateutil"
+optional = false
+platform = "*"
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "2.7.3"
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
+category = "main"
+description = "Programmatically open an editor, capture the result."
+name = "python-editor"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.0.3"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.11.0"
+
+[[package]]
+category = "main"
+description = "Database Abstraction Library"
+name = "sqlalchemy"
+optional = false
+platform = "*"
+python-versions = "*"
+version = "1.2.12"
+
+[metadata]
+content-hash = "15326dd7c6adb99992bee2bddcea0c3a6dec0ce7554ab9e3c24d1cf9d8fa81d8"
+platform = "*"
+python-versions = "*"
+
+[metadata.hashes]
+alembic = ["52d73b1d750f1414fa90c25a08da47b87de1e4ad883935718a8f36396e19e78e", "eb7db9b4510562ec37c91d00b00d95fde076c1030d3f661aea882eec532b3565"]
+banal = ["1b88caf2e12d96af55cebc5ed8293cdf847ee41c91c3e53e53e895c8b92ddce3", "72526533aebd701100c75852eaf8ee59b64a9fade17940ef84a29ff69b820321"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+dataset = []
+mako = ["4e02fde57bd4abb5ec400181e4c314f56ac3e49ba4fb8b0d50bba18cb27d25ae"]
+markupsafe = ["a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"]
+normality = ["11b6e06ad1d4c8edefb5dca64893777d6cbc79ae81189d52d488df01a3bfc415", "739c1b40cfaefabdf537972f0284df5ce0ddb371f9475b764f478cb25bc1c4be"]
+python-dateutil = ["1adb80e7a782c12e52ef9a8182bebeb73f1d7e24e374397af06fb4956c8dc5c0", "e27001de32f627c22380a688bcc43ce83504a7bc5da472209b4c70f02829f0b8"]
+python-editor = ["a3c066acee22a1c94f63938341d4fb374e3fdd69366ed6603d7b24bed1efc565"]
+six = ["70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9", "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"]
+sqlalchemy = ["c5951d9ef1d5404ed04bae5a16b60a0779087378928f997a294d1229c6ca4d3e"]

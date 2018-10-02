@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "dataset-xschema"
+version = "0.1.0"
+description = ""
+authors = ["patarapolw <patarapolw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+dataset = {git = "https://github.com/patarapolw/dataset.git"}
+
+[tool.poetry.dev-dependencies]
