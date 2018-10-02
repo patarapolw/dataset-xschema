@@ -10,7 +10,7 @@ External schema, i.e. not embedded in database file, for [dataset](https://githu
 
 ## Usage
 
-```
+```python
 >>> from dataset import dataset
 >>> from dataset_xschema import XSchemaTable
 >>> from datetime import datetime
