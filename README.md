@@ -10,6 +10,7 @@ External schema, i.e. not embedded in database file, for [dataset](https://githu
 
 ## Usage
 
+```
 >>> from dataset import dataset
 >>> from dataset_xschema import XSchemaTable
 >>> from datetime import datetime
@@ -25,6 +26,7 @@ External schema, i.e. not embedded in database file, for [dataset](https://githu
     'record_id': Constraint(type_=int, unique=False, not_null=False),
     'modified': Constraint(type_=datetime.datetime, unique=False, not_null=False)
 }
+```
 
 ## Note
 
